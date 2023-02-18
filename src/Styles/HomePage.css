@@ -1,0 +1,16 @@
+.homepage {
+  position: absolute;
+  overflow: scroll;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 83px;
+  background-color: aqua;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.home-page-img{
+  width: 100vw;
+  height: 100vh;
+}
