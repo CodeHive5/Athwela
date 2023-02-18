@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import "./App.css";
+import "../src/Styles/App.css";
 import Homepage from "./sections/Homepage";
 import AboutUs from "./sections/AboutUs";
 import Events from "./sections/Events";
@@ -11,11 +11,11 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-     <Homepage/>
-      <HomePageBar/>
-      <AboutUs/>
-      <Events/>
-      <ContactUs/>
+      <Homepage />
+      <HomePageBar />
+      <AboutUs />
+      <Events />
+      <ContactUs />
     </BrowserRouter>
   );
 }
