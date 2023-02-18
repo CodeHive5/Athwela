@@ -1,14 +1,28 @@
-import athwalalogo from "/CodeHive/Working/Athwela/src/assets/Athwela_Logo_WH.png";
-import homepageimg from "/CodeHive/Working/Athwela/src/assets/two-hands.jpg";
-
 import "../Styles/HomePage.css";
-const HomePage = () => {
+import homepage from "../assets/test.jpg";
+import homelogo from "../assets/home_FILL0_wght400_GRAD0_opsz48.png";
+import itfsulogo from "../assets/Untitled.png";
+const Homepage = () => {
   return (
-    <div className="main-outer-homepage">
-      <div className="homepage">
-        <img src={homepageimg} alt="" className="img-fluid home-page-img"></img>
+    <div id="homepage" >
+      <img src={homepage} className="homepagelogo img-fluid"></img>
+      <div id="home-page-text" className="container-fluid">
+        <p className="handtogrow "> Hand to Grow</p>
+        <p className="assisting ">
+          Assisting the underprivileged students towards a successful university
+          education
+        </p>
+        <div className="btn btn-danger px-5 py-2 donation-btn">Donate Now</div>
+      </div>
+      <div id="home-page-btn">
+        <div className="btn btn-dark d-block home-page-btn">
+          <img src={homelogo} className="homelogo"></img>
+        </div>
+        <div className="btn btn-dark home-page-btn">
+          <img src={itfsulogo} className="itfsulogo"></img>
+        </div>
       </div>
     </div>
   );
 };
-export default HomePage;
+export default Homepage;
