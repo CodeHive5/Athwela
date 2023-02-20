@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import style from "./donateForm.module.css";
-import DonateTab from "./DonateTab";
-import FundAllocationTab from "./FundAllocationTab";
-// import "./style.css";
+import style from "../../Styles/donateForm.module.css";
+import DonateTab from "../../components/DonateTab";
+import FundAllocationTab from "../../components/FundAllocationTab";
+
 const Tabs = () => {
   return (
     <div className={style.divTabs}>

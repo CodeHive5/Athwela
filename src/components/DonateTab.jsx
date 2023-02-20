@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./donateForm.module.css";
+import style from "../Styles/donateForm.module.css";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 

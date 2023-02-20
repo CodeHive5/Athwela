@@ -1,5 +1,5 @@
-import "../Styles/Contentcss.css";
-import dean from "../assets/dean.png"
+import "./Contentcss.css";
+import dean from "../../../assets/dean.png"
 const AboutUs = () => {
   return (
     <div className="main" id="aboutus">

@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./donateForm.module.css";
+import style from "../Styles/donateForm.module.css";
 
 const btnFundAllocationTab = () => {
   return (
