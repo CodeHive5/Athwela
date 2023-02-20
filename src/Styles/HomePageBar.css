@@ -1,0 +1,58 @@
+.homepagebar{
+    background-color: #F04B47;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.home-page-bar-text{
+    color: white;
+    text-align: center;
+}
+.total-money-donated{
+    margin-top: 17px;
+    width: 90px;
+    display: flex;
+}
+.undergraduates-fund{
+    width: 40px;
+    margin-top: 8px;
+}
+.homepagebar-lkr{
+    margin-top: 36px;
+    margin-right: 10px;
+}
+.homepagebar-100k{
+    font-size: 40px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.homepagebar-totalm{
+    margin-top: 9px;
+    text-align: left;
+    font-size: 12px;
+    color: black;
+
+}
+
+.homepagebar-80{
+    font-size: 40px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.homepagebar-underg{
+    margin-top: 9px;
+    text-align: left;
+    font-size: 12px;
+    color: black;
+}
+.homepagebar-05{
+    font-size: 40px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.homepagebar-years{
+    margin-top: 9px;
+    text-align: left;
+    font-size: 12px;
+    color: black;
+}
