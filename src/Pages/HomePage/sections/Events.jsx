@@ -1,44 +1,104 @@
+import Carousel from "../../../components/carousel/Carousel";
+import Card from "../../../components/card/Card";
 const Events = () => {
-    return (
-      <div id="events">
-        awfahakfabkfabjfa Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Sequi asperiores ab expedita obcaecati facilis dolorum cupiditate ad
-        recusandae sed ratione, voluptatibus veniam minus suscipit, est,
-        repellendus molestiae eveniet maiores magni cumque natus itaque vero?
-        Itaque nam fuga similique ratione saepe animi harum, ducimus delectus
-        dolor ad laudantium, debitis odio accusantium? awfahakfabkfabjfa Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Sequi asperiores ab expedita obcaecati facilis dolorum cupiditate ad
-        recusandae sed ratione, voluptatibus veniam minus suscipit, est,
-        repellendus molestiae eveniet maiores magni cumque natus itaque vero?
-        Itaque nam fuga similique ratione saepe animi harum, ducimus delectus
-        dolor ad laudantium, debitis odio accusantium? awfahakfabkfabjfa Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Sequi asperiores ab expedita obcaecati facilis dolorum cupiditate ad
-        recusandae sed ratione, voluptatibus veniam minus suscipit, est,
-        repellendus molestiae eveniet maiores magni cumque natus itaque vero?
-        Itaque nam fuga similique ratione saepe animi harum, ducimus delectus
-        dolor ad laudantium, debitis odio accusantium? awfahakfabkfabjfa Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Sequi asperiores ab expedita obcaecati facilis dolorum cupiditate ad
-        recusandae sed ratione, voluptatibus veniam minus suscipit, est,
-        repellendus molestiae eveniet maiores magni cumque natus itaque vero?
-        Itaque nam fuga similique ratione saepe animi harum, ducimus delectus
-        dolor ad laudantium, debitis odio accusantium? awfahakfabkfabjfa Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Sequi asperiores ab expedita obcaecati facilis dolorum cupiditate ad
-        recusandae sed ratione, voluptatibus veniam minus suscipit, est,
-        repellendus molestiae eveniet maiores magni cumque natus itaque vero?
-        Itaque nam fuga similique ratione saepe animi harum, ducimus delectus
-        dolor ad laudantium, debitis odio accusantium? awfahakfabkfabjfa Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Sequi asperiores ab expedita obcaecati facilis dolorum cupiditate ad
-        recusandae sed ratione, voluptatibus veniam minus suscipit, est,
-        repellendus molestiae eveniet maiores magni cumque natus itaque vero?
-        Itaque nam fuga similique ratione saepe animi harum, ducimus delectus
-        dolor ad laudantium, debitis odio accusantium? awfahakfabkfabjfa Lorem ipsum, dolor sit amet consectetur adipisicing
-        elit. Sequi asperiores ab expedita obcaecati facilis dolorum cupiditate ad
-        recusandae sed ratione, voluptatibus veniam minus suscipit, est,
-        repellendus molestiae eveniet maiores magni cumque natus itaque vero?
-        Itaque nam fuga similique ratione saepe animi harum, ducimus delectus
-        dolor ad laudantium, debitis odio accusantium?
-      </div>
-    );
-  };
-  export default Events;
-  
+  return (
+    <div
+    id="events"
+      style={{
+        maxWidth: 1200,
+        marginLeft: "auto",
+        marginRight: "auto",
+        marginTop: 64,
+      }}
+    >
+      <Carousel show={3}>
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+        <Card
+          imgUrl="https://via.placeholder.com/300x300"
+          imgAlt="test"
+          title="TEST"
+          description="testing 321"
+        />
+      </Carousel>
+    </div>
+  );
+};
+
+export default Events;
