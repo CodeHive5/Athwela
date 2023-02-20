@@ -1,0 +1,205 @@
+.divContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.divContent {
+  margin-top: 6.5vh;
+  width: 64vw;
+  height: 100vh;
+  background-color: white;
+}
+
+.divDonateForm,
+.divDonateCriteria {
+  width: 32vw;
+  height: 8vh;
+  border: 1px solid hsl(1, 85%, 61%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divDonateForm {
+  background-color: #f04b47;
+  color: white;
+}
+
+.divvss {
+  border: 1px solid #f04b47;
+  width: 32vw;
+}
+
+.divTabs {
+  width: 64vw;
+  height: 8vh;
+  margin-bottom: 6.5vh;
+  /* border: 1px solid #f04b47; */
+}
+
+.btnDonationTab,
+.btnFundAllocationTab {
+  width: 32vw;
+  height: 8vh;
+
+  --bs-nav-pills-link-active-bg: #f04b47;
+  --bs-nav-pills-border-radius: 0rem;
+  --bs-nav-link-color: black;
+  --bs-nav-link-hover-color: rgb(0, 0, 0, 0.8);
+}
+
+.btnDonationTab {
+  /* background-color: #f04b47; */
+  color: black;
+}
+
+.btnDonationTab:active,
+.btnFundAllocationTab:active {
+  background-color: #f04b47 !important;
+  color: white;
+  border-radius: 0px;
+}
+
+.btnDonationTab:focus,
+.btnFundAllocationTab:focus {
+  background-color: #f04b47 !important;
+  color: white;
+  border-radius: 0px;
+}
+
+.divDonateTabContent,
+.divFundAllocationTabContent {
+  margin-top: 5vh;
+}
+
+.TitleBeADonor {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.ContentBeADonor {
+  margin-top: 4vh;
+}
+
+.FormBeADonor {
+  margin-top: 4vh;
+}
+
+.tdLableLeft,
+.tdInputLeft {
+  width: 33vw;
+  padding-right: 5px;
+}
+
+.tdLableRight,
+.tdInputRight {
+  width: 31vw;
+  padding-left: 5px;
+}
+
+.tdInputRight,
+.tdInputLeft,
+.tdInputFull {
+  padding-bottom: 20px;
+}
+
+.ipLeft {
+  width: 31vw;
+}
+
+.ipRight {
+  width: 31vw;
+}
+
+.tdInputFull,
+.tdLableFull,
+.ipFull {
+  width: 64vw;
+}
+
+.ipLeft,
+.ipRight,
+.ipFull {
+  border: 1px solid rgb(0, 0, 0, 0.5);
+  border-radius: 0;
+}
+
+.formButton {
+  margin-right: 20px;
+  margin-bottom: 100px;
+  border-radius: 0px;
+  width: 100px;
+}
+
+.btnReset {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.btnSubmit {
+  background-color: #f04b47;
+  color: white;
+  border: 1px solid #f04b47;
+}
+
+.ipRight:focus,
+.ipLeft:focus,
+.ipFull:focus {
+  border: 2px solid rgb(0, 0, 0, 0.5);
+  background-color: white;
+  box-shadow: 0 0 0 0px white;
+  outline: none;
+}
+
+.errorMsg {
+  color: red;
+  height: 1vh;
+  font-size: 9pt;
+}
+
+.req {
+  color: red;
+}
+
+/* .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: red;
+}
+
+.nav-pills {
+  background-color: red;
+} */
+
+td {
+  padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  td {
+    display: block;
+    width: 100%;
+  }
+
+  .tdLableLeft,
+  .tdLableRight,
+  .tdLableFull,
+  .ipFull,
+  .ipLeft,
+  .ipRight {
+    width: 64vw;
+    padding-left: 0px;
+  }
+
+  .formButton {
+    margin-bottom: 30px;
+  }
+  #input2 {
+    margin-top: 10px;
+    width: 64vw;
+  }
+}
